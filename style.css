@@ -1,0 +1,165 @@
+body {
+	background-color: #F9F9F9;
+	color: rgb(50, 50, 50);
+	font-family: "Markazi Text", serif;
+	font-weight: normal;
+	front-size: 17px;
+}
+
+
+.img-circle {
+	border-radius: 50%;
+	width : 160px;
+	height : 180px;
+}
+
+
+h1, h2 {
+	color: #ff487e;
+	font-family: "Nunito", serif;
+	font-weight: 900;
+	letter-spacing: 5px;
+	font-size: 50px;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #74008f;
+	font-weight: 900;
+}
+
+a:hover {
+	color: black;
+}
+
+
+
+div {
+	background: white;
+	border: 2px;
+	margin: 10px;
+	flex-basis: 250px;
+	flex-grow: 1;
+}
+
+
+
+/* Custom design with class (99% of your design)*/
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+
+@media (max-width: 760px){
+.container {
+	width: 600px;
+	}
+}
+
+
+@media (max-width: 500px){
+.container {
+	width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	margin: 20px;
+	text-align: center;
+	font-weight: normal;
+	flex-basis: 250px;
+	flex-grow: 1;
+}
+
+.list-inline {
+	border-radius: 50%;
+	text-align: center;
+	border-radius: 6px;
+	margin: 20px;
+	text-align: center;
+	font-weight: normal;
+}
+
+
+
+
+.img-circle {
+	border-radius: 50%;
+}
+
+
+.btn-blue {
+	background-color: #FA9191;
+	color: whitesmoke ;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+
+.btn-blue: hover {
+	background-color: white;
+	color: #FE487E;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 30px;
+	max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.list-inline li {
+	display: inline;
+	padding: 6px;
+}
+
+
+.list-inline i {
+	font-size: 40px;
+	color: #FA9191;
+}
+
+
+.list-inline i:hover {
+	 color: #FE487E;
+}
+
+a.icon-block {
+	display: inline-block;
+	width: 10em;
+	float: left;
+}
+
+a.icon-block i {
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+
+/* Design ajustment using id (1% of design remaining)*/
+
+#introduction {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
